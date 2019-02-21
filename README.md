@@ -10,6 +10,7 @@ SQL code to create and execute stored procedures which give NHS tariff costs by 
 - NHS Tariffs 2017/18 & 2018/19: https://improvement.nhs.uk/resources/national-tariff-1719/  
 - HRG Grouper tool: https://digital.nhs.uk/services/national-casemix-office/downloads-groupers-and-tools/payment-hrg4-2017-18-local-payment-grouper  
 - Hospital activity: https://www.england.nhs.uk/statistics/statistical-work-areas/hospital-activity/quarterly-hospital-activity/qar-data/  
+- Sample episode data can be found on the HRG Grouper page  
 
 ## Useage
 1. Batch process episode data using HRG Grouper to obtain HRG codes for each. The required fields for the episode data are procodet, epiorder, startage, sex, classpat, admisorc, admimeth, disdest, dismeth, epidur, mainspef, neocare, tretspef, & diag_01  
