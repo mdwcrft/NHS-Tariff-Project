@@ -12,7 +12,7 @@ SQL code to create and execute stored procedures which give NHS tariff costs by 
 - Hospital activity: https://www.england.nhs.uk/statistics/statistical-work-areas/hospital-activity/quarterly-hospital-activity/qar-data/  
 - Sample episode data can be found on the HRG Grouper page  
 
-## Useage
+## Usage
 1. Batch process episode data using HRG Grouper to obtain HRG codes for each. The required fields for the episode data are procodet, epiorder, startage, sex, classpat, admisorc, admimeth, disdest, dismeth, epidur, mainspef, neocare, tretspef, & diag_01  
 2. Import the "XX_FCE.CSV" output file into SQL as stage.HES, 2018/19 admitted patient tariffs as stage.apc18 and 2018/19 as stage.apc19. The admissions data is non-essential.  
 3. Run createTables.sql to create dbo.HES, dbo.apc18, & dbo.apc19  
